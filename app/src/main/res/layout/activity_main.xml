@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Öğrendiğiniz ingilizce kelimeyi yaygın bir öğrenme tekniği olan tekrarlı yazma ile bu uygulama sayesinde pratik ve kolay olarak yapabilirsiniz."
+        android:textAlignment="center"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.598" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="180dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="108dp"
+        android:layout_marginEnd="116dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/book" />
+
+    <Button
+        android:id="@+id/startbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="112dp"
+        android:backgroundTint="@color/colorbutton"
+        android:text="öğrenmeye başla"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+</androidx.constraintlayout.widget.ConstraintLayout>

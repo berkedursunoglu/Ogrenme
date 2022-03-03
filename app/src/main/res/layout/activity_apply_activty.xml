@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange"
+    tools:context=".ApplyActivty"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="0dp">
+
+    <EditText
+        android:id="@+id/ing9"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="380dp"
+        android:ems="10"
+        android:hint="İnglizce Kelime"
+        android:inputType="textPersonName"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <EditText
+        android:id="@+id/tr9"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="380dp"
+        android:ems="10"
+        android:hint="Türkçe Kelime"
+        android:inputType="textPersonName"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <EditText
+        android:id="@+id/ing8"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="340dp"
+        android:ems="10"
+        android:hint="İnglizce Kelime"
+        android:inputType="textPersonName"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <EditText
+        android:id="@+id/tr8"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="340dp"
+        android:ems="10"
+        android:hint="Türkçe Kelime"
+        android:inputType="textPersonName"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <EditText
+        android:id="@+id/ing7"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="300dp"
+        android:ems="10"
+        android:hint="İnglizce Kelime"
+        android:inputType="textPersonName"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <EditText
+        android:id="@+id/tr7"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="300dp"
+        android:ems="10"
+        android:hint="Türkçe Kelime"
+        android:inputType="textPersonName"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <EditText
+        android:id="@+id/ing6"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="260dp"
+        android:ems="10"
+        android:hint="İnglizce Kelime"
+        android:inputType="textPersonName"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <EditText
+        android:id="@+id/tr6"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="260dp"
+        android:ems="10"
+        android:hint="Türkçe Kelime"
+        android:inputType="textPersonName"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <EditText
+        android:id="@+id/ing5"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="220dp"
+        android:ems="10"
+        android:hint="İnglizce Kelime"
+        android:inputType="textPersonName"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <EditText
+        android:id="@+id/tr5"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="220dp"
+        android:ems="10"
+        android:hint="Türkçe Kelime"
+        android:inputType="textPersonName"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <EditText
+        android:id="@+id/ing4"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="180dp"
+        android:ems="10"
+        android:hint="İnglizce Kelime"
+        android:inputType="textPersonName"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <EditText
+        android:id="@+id/tr4"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="180dp"
+        android:ems="10"
+        android:hint="Türkçe Kelime"
+        android:inputType="textPersonName"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <EditText
+        android:id="@+id/ing3"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="140dp"
+        android:ems="10"
+        android:hint="İnglizce Kelime"
+        android:inputType="textPersonName"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <EditText
+        android:id="@+id/tr3"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="140dp"
+        android:ems="10"
+        android:hint="Türkçe Kelime"
+        android:inputType="textPersonName"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <EditText
+        android:id="@+id/ing2"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:hint="İnglizce Kelime"
+        android:inputType="textPersonName"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <EditText
+        android:id="@+id/tr2"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:hint="Türkçe Kelime"
+        android:inputType="textPersonName"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <EditText
+        android:id="@+id/ing1"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:hint="İnglizce Kelime"
+        android:inputType="textPersonName"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <EditText
+        android:id="@+id/tr1"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:hint="Türkçe Kelime"
+        android:inputType="textPersonName"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/apply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="44dp"
+        android:backgroundTint="@color/colorbutton"
+        android:text="öğrendim"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="İngilizce"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Türkçe"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintGuide_begin="199dp"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/ing"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="İnglizce Kelime"
+        android:inputType="textPersonName"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <EditText
+        android:id="@+id/tr"
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Türkçe Kelime"
+        android:inputType="textPersonName"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
